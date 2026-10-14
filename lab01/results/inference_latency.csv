@@ -1,0 +1,3 @@
+model,median_inference_latency_ms
+Logistic Regression,0.0471
+Random Forest,1.8988
