@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "epochs": 5,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "train_size": 55000,
+  "validation_size": 5000,
+  "test_size": 10000,
+  "normalization_mean": 0.286,
+  "normalization_std": 0.353
+}
