@@ -1,3 +1,3 @@
 model,median_training_time_seconds
-Logistic Regression,0.381733
-Random Forest,0.133023
+Logistic Regression,0.461468
+Random Forest,0.172186
