@@ -33,11 +33,10 @@ The best result came from the network with 64 neurons per hidden layer and a lea
 
 I measured the median forward and backward pass times over 100 runs.
 
-| Hidden neurons | Forward pass | Backward pass |
-|---:|---:|---:|
-| 16 | 0.0240 ms | 0.0275 ms |
-| 64 | 0.0391 ms | 0.0532 ms |
-
+| Hidden width | Forward pass (ms) | Backward pass (ms) |
+|---|---:|---:|
+| 16 | 0.0228 | 0.0261 |
+| 64 | 0.0389 | 0.0511 |
 The backward pass took longer than the forward pass because it also calculates gradients. The network with 64 neurons was slower because it performs more computations.
 
 ## 6. Conclusion
