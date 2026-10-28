@@ -41,15 +41,3 @@ Automated range checks cannot establish whether an income label is factually cor
 --------------------------------------------------
 label_audit_sample_50.csv
 label_quality_report.txt
-
-7. Manual Review of 50 Random Records
-
-A sample of 50 records was selected using random state 42 and reviewed against the Adult dataset's documented feature definitions and the Lab 4 validation rules.
-
-The reviewed records satisfied the specified ranges for age (17–90), hours per week (1–99), capital gain (0–99,999), and capital loss (0–4,356). The observed education-number values were consistent with the education categories shown in the sample.
-
-Missing values were observed in workclass, occupation, and native-country. These were recorded as missing data rather than treated as impossible values. Both income classes were represented in the sample.
-
-This review checks data consistency and plausible values. It does not independently verify the factual correctness of individual income labels.
-
-**Conclusion:** No violations of the specified numeric ranges were identified in the 50 reviewed records. Missing categorical values were observed and documented.
