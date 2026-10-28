@@ -1,0 +1,3 @@
+model,accuracy,f1_score
+Without engineered features,0.85415955776974,0.6607397999682489
+With engineered features,0.8581177915785163,0.6705751861828554

@@ -1,0 +1,27 @@
+LAB 4 - DATA VALIDATION REPORT
+==================================================
+
+[PASS] Dataset dimensions: Found 48842 rows and 15 columns
+[PASS] Schema columns: Columns match expected schema: True
+[PASS] Numeric type: age: Observed dtype: int64
+[PASS] Numeric type: fnlwgt: Observed dtype: int64
+[PASS] Numeric type: education-num: Observed dtype: int64
+[PASS] Numeric type: capital-gain: Observed dtype: int64
+[PASS] Numeric type: capital-loss: Observed dtype: int64
+[PASS] Numeric type: hours-per-week: Observed dtype: int64
+[PASS] Categorical type: workclass: Observed dtype: category
+[PASS] Categorical type: education: Observed dtype: category
+[PASS] Categorical type: marital-status: Observed dtype: category
+[PASS] Categorical type: occupation: Observed dtype: category
+[PASS] Categorical type: relationship: Observed dtype: category
+[PASS] Categorical type: race: Observed dtype: category
+[PASS] Categorical type: sex: Observed dtype: category
+[PASS] Categorical type: native-country: Observed dtype: category
+[PASS] Categorical type: class: Observed dtype: category
+[PASS] Range: age: 0 violations; allowed range is 17 to 90
+[PASS] Range: hours-per-week: 0 violations; allowed range is 1 to 99
+[PASS] Range: capital-gain: 0 violations; allowed range is 0 to 99999
+[PASS] Range: capital-loss: 0 violations; allowed range is 0 to 4356
+[PASS] Missing-value inspection: workclass: 2799 null values, 0 '?' markers; occupation: 2809 null values, 0 '?' markers; native-country: 857 null values, 0 '?' markers
+[PASS] Target categories: Observed: ['<=50K', '>50K']; unexpected: []
+[PASS] Duplicate inspection: 52 exact duplicate rows found; no rows removed during validation
